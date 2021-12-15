@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: book_tracker
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Iv1.738befae5001e5a9
+            client-secret: 637174c3af704e1cde6b6e63b2d0010875241c06
+
+  
+
+  data:
+    cassandra:
+      keyspace-name: main
+      username: rCGxuENmKggGKxBcFYPsbdkD
+      password:  DxC,9qgM4dbRa8uOElAIKkp,2zHcKZooBr29R,sHXIwX7pDbZbB0QM_.+ff4LT6FW87Wn7rCu,FqeB2Sm9+NIm.Swbu6NNB,Q8AbKBqPnhHyDt2pMfDUdXpQ5me7GGa7
+      schema-action: create-if-not-exists
+      request:
+        timeout: 10s
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 10s
+
+datadump.location:
+     author: /home/unthinkable-lap-0142/Desktop/springg/NosqlSpring/betterrads_data_loader/author_dump.txt
+     work: /home/unthinkable-lap-0142/Desktop/springg/NosqlSpring/betterrads_data_loader/work_dump.txt
+
+datastax.astra:
+    secure-connect-bundle: secure-connect-betterread.zip   
+
+astra.db:
+    id: 31519172-3cf2-4830-bdd8-3fdc4f69b103-1
+    region: asia-south1
+    keyspace: main
+    application.token: AstraCS:rCGxuENmKggGKxBcFYPsbdkD:523a70e8fb18cb5bb36fca1b7b06497af373c9fc6c3b003b4f47924fc34e994d
+
+
+
+  
+      
